@@ -1,0 +1,46 @@
+{{#list}}
+<div class="address-item" data-shipping-id={{id}}>
+	<p>
+		地址  : <span class="province">{{receiverProvince}}</span>
+		        <span class="city form-city">{{receiverCity}}</span> 
+		        <span class="detail-area">{{receiverAddress}}</span>
+	</p>
+	<p>
+		收件人 : <span class="addressee">{{receiverName}}</span> 
+	</p>
+	<p>
+		电话  : <span class="phone">{{receiverPhone}}</span>
+	</p>
+	<p>
+		邮编  : <span class="postal">{{receiverZip}}</span>
+	</p>
+	<p class="edit-del"><span class="edit link">编辑</span><span class="del link">删除</span></p>
+</div>
+{{/list}}
+<div class="add">
+	<p class="plus">+</p>
+	<p class="text">使用新地址</p>
+</div>
+
+<div class="new-address hide"> 
+	<div class="new-wrap">
+		<h3 class="h3">使用新地址<span class="icon-cross"></span></h3>
+		<p><span class="span"><i>*</i>收件人姓名 :</span><input class="input username" type="text" placeholder="请输入姓名"></p>
+		<p>
+			<span class="span">
+				<i>*</i>所在城市 :
+			</span>
+			<select class="s-province" id="s_province" name="s_province"> 
+				<!-- render的代码占位区 -->
+			</select>
+			<select class="s-city" id="s_city" name="s_city">  
+				<!-- render的代码占位区 --> 
+			</select>
+			</p>
+		<p><span class="span"><i>*</i>详细地址 :</span><input class="input detail-area" type="text" placeholder="请输入详细地址"></p>
+		<p><span class="span"><i>*</i>收件人手机 :</span><input class="input phone" type="text" placeholder="请输入收件人手机"></p>
+		<p><span class="span">邮政编码 :</span><input class="input zip" type="text" placeholder="请输入邮政编码"></p>
+		<p><span class="span"></span><b class=" btn btn-mini save-address">保存收货地址</b></p>
+		 
+	</div> 
+</div>

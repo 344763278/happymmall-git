@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<%= require('html-loader!./layout/head-common.html')  %> 
+	<title><%= htmlWebpackPlugin.options.title%> - happymmall电商平台</title>
+</head>
+<body>
+	<%= require('html-loader!./layout/top-nav.html') %>
+	<%= require('html-loader!./layout/search.html') %>
+	<%= require('html-loader!./layout/crumbs.html')  %>
+	<div class="user-center w clearfix">
+		<div class="side-nav fl">
+			<ul>
+				<li class="item"><a class='link' href="./my-mmall.html">个人中心</a class='link'></li>
+				<li class="item"><a class="link" style="color:red;font-size:16px" href="./order-list.html">我的订单</a></li>
+				<li class="item"><a class="link" href="./user-pass-updata.html">修改密码</a></li>
+				<li class="item"><a class="link" href="./about-mmall.html">关于MMall</a></li>
+			</ul>
+		</div>
+		<div class="side-main order-list-wrap fl"> 
+			<!-- render的订单列表 -->
+		</div>
+		<div class="pagenation w">
+			
+		</div>
+	</div>
+	<%= require('html-loader!./layout/footer.html')  %>
+</body>
+</html>

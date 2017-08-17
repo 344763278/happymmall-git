@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<%= require('html-loader!./layout/head-common.html')  %> 
+	<title><%= htmlWebpackPlugin.options.title%> - happymmall电商平台</title>
+</head>
+<body>
+	<%= require('html-loader!./layout/top-nav.html') %>
+	<%= require('html-loader!./layout/search.html') %>
+	<div class="goods-detail w">
+		<!-- render的内容区域 -->
+	</div>
+	<%= require('html-loader!./layout/footer.html')  %>
+</body>
+</html>

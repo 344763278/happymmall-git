@@ -1,0 +1,11 @@
+<div class="refer">
+	订单提交成功，请您尽快支付！ 订单号：{{orderNo}}
+</div>
+<div class="pay">
+	请使用支付宝扫描如下二维码进行支付：
+</div>
+<div class="img"> 
+	<img src="{{qrUrl}}" alt="{{orderNo}}">
+</div>
+
+

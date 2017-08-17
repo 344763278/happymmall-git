@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<%= require('html-loader!./layout/head-common.html')  %> 
+	<title><%= htmlWebpackPlugin.options.title%> - happymmall电商平台</title>
+</head>
+<body>
+	<%= require('html-loader!./layout/search-simple.html') %>
+	<div class="register w hide">
+		<p>
+			恭喜您，注册成功！
+		</p>
+		<a href="./user-login.html">立即去登录</a><a href="./index.html">回到首页</a>
+	</div>
+	<div class="result w hide">
+		<p>
+			恭喜您，重置密码成功！
+		</p>
+		<a href="./user-login.html">立即去登录</a><a href="./index.html">回到首页</a>
+	</div>
+	<div class="reset w hide">
+		<p>
+			恭喜您，重置密码成功！
+		</p> 
+		<a href="./index.html">回到首页</a>
+	</div>
+	<div class="addCart w hide">
+		<p>
+			恭喜您，添加购物车成功！
+		</p> 
+		<a href="./index.html">回到首页</a><a href="./shop-car.html">查看购物车</a>
+	</div>
+	<div class="pay w hide">
+		<p >
+			恭喜您，付款成功！<br/>
+			(这个付款成功是模拟的，请求为true才可以)<br/>
+			商品订单号 : <span class="order-no"></span>
+		</p> 
+		<a href="./index.html">回到首页</a><a href="./shop-car.html">查看购物车</a>
+	</div>
+	<%= require('html-loader!./layout/footer.html')  %>
+</body>
+</html>

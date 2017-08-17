@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<%= require('html-loader!./layout/head-common.html')  %>
+	<title><%= htmlWebpackPlugin.options.title%> - happymmall电商平台</title>
+</head>
+<body> 
+	<%= require('html-loader!./layout/search-simple.html')  %> 
+	<div class="user-login">
+		<div class="login-box">
+			<h3 class="tit">新用户注册</h3>
+			<p class="proving hide">
+				<span class="icon icon-user"></span></span><span class='text'></span>
+			</p>
+			<p class="username"><span class="icon icon-user"></span><input class="user-content form-username" type="text" placeholder="请输入用户名"></p>
+			<p class="password"><span class="icon icon-lock"></span><input class="user-content form-password" type="password" placeholder="请输入密码"></p>
+			<p class="password"><span class="icon icon-lock"></span><input class="user-content form-password-repeat" type="password" placeholder="请再次输入密码"></p>
+			<p class="password"><span class="icon icon-lock"></span><input class="user-content form-phone" type="text" placeholder="请输入电话"></p>
+			<p class="password"><span class="icon icon-lock"></span><input class="user-content form-email" type="text" placeholder="请输入邮箱"></p>
+			<p class="password"><span class="icon icon-lock"></span><input class="user-content form-question" type="text" placeholder="请密码提示问题"></p>
+			<p class="password"><span class="icon icon-lock"></span><input class="user-content form-answer" type="text" placeholder="请输入密码提示答案"></p>
+			<a href="javascript:" class="button-btn">
+				立即注册
+			</a>
+			
+			<p class="forget"><a href="./user-login.html">已有账号，去登录</a></p>
+		</div>
+	</div>
+
+
+
+	<%= require('html-loader!./layout/footer.html')  %>
+</body>
+</html>

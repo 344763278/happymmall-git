@@ -1,0 +1,22 @@
+.prev, .next, .page-item{
+	padding: 8px;
+	border: 1px solid #444;
+	margin: 0 5px;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	background-color: #ccc;
+	cursor: pointer;
+
+}
+
+.disable{
+	background: none;
+	cursor: auto;
+}
+.checked{
+	border: none;
+	background: none;
+	cursor: auto;
+}

@@ -1,0 +1,118 @@
+
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin: 0;padding: 0}
+body{font-size: 12px ;background-color: #f6f6f6;font-family: "微软雅黑"}
+img{border:none;vertical-align: top;}
+li{list-style: none;}
+textarea{resize:none;}
+input,select,textarea,button{outline: none;border:none; }
+a{text-decoration: none;color: #999;}
+a:hover{
+    color: #e80012;
+}
+i{font-style: normal;}
+
+/*清浮动*/
+.clearfix:after{content: "";display: block;clear: both;}
+.clearfix{zoom:1;}
+
+/*公共*/
+.fl{float: left;}
+.fr{float: right;}
+.w{width: 1080px;margin:0 auto;}
+.hide{display: none;}
+.show{display: block;}
+
+ 
+label{
+    cursor: pointer;
+}
+input{
+    background-image: none;
+    background-color: #ffffff;
+}
+input[type='checkbox']{
+    cursor: pointer;
+}
+i{
+    font-style: normal;
+}
+
+/* 定宽布局 */
+.w{
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/* panel */
+.panel{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.panel .panel-title{
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+.panel .panel-body{
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* 全局通用样式 */
+/* 隐藏类 */
+.hide{
+    display: none;
+}
+/* 超链样式 */
+.link{
+    color: #999;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link:hover{
+    color: #e80012;
+}
+.link-text{
+    color: #999;
+    text-decoration: none;
+}
+/* btn */
+.btn{
+    display: inline-block;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    border: none;
+    background: #c60023;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-mini{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+/* loading */
+.loading{
+    margin: 10px auto;
+    display: block;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: url(../../image/icon/loading.gif) no-repeat;
+    opacity: .6;
+}
+
+ 

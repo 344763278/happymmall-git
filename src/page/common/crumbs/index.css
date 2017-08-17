@@ -1,0 +1,10 @@
+.crumbs-wrap{
+	background-color: #eeeeee;
+	border-top: 2px solid #c60023;
+	height: 50px;
+	line-height: 50px;
+}
+.crumbs{
+	font-size: 14px;
+	color: #ae9999;
+}

@@ -1,0 +1,23 @@
+
+
+{{#hasPreviousPage}}
+<span class="prev">上一页</span>
+{{/hasPreviousPage}} 
+{{^hasPreviousPage}}
+<span class="prev disable">上一页</span>
+{{/hasPreviousPage}} 
+
+<span class="pages">
+	{{#navigatepageNums}}
+	<span class="page-item " data-page-num="{{.}}">{{.}}</span> 
+	{{/navigatepageNums}}
+</span>
+
+{{#hasNextPage}}
+<span class="next">下一页</span>
+{{/hasNextPage}}
+{{^hasNextPage}}
+<span class="next disable">下一页</span>
+{{/hasNextPage}}
+
+<span> {{pageNum}} / {{pages}}</span>

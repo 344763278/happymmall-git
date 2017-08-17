@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<%= require('html-loader!./layout/head-common.html')  %> 
+	<title><%= htmlWebpackPlugin.options.title%> - happymmall电商平台</title>
+</head>
+<body>
+	<%= require('html-loader!./layout/top-nav.html')  %>
+	<%= require('html-loader!./layout/search.html')  %> 
+	<%= require('html-loader!./layout/crumbs.html')  %>
+	<div class="user-center w clearfix">
+		<div class="side-nav fl">
+			<ul>
+				<li class="item"><a class='link' style="color:red;font-size:16px" href="./my-mmall.html">个人中心</a class='link'></li>
+				<li class="item"><a class="link" href="./order-list.html">我的订单</a></li>
+				<li class="item"><a class="link" href="./user-pass-updata.html">修改密码</a></li>
+				<li class="item"><a class="link" href="./about-mmall.html">关于MMall</a></li>
+			</ul>
+		</div>
+		<div class="side-main fl">
+			<h3 class="tit">我的信息</h3>
+			<ul class="ul-cont">
+				<li class="side-mian-list">
+					<span>门户名:</span>
+					sky080808
+				</li>
+				<li class="side-mian-list">
+					<span>电话:</span>
+					13544445555
+				</li>
+				<li class="side-mian-list">
+					<span>邮箱:</span>
+					sky080808@qq.com
+				</li>
+				<li class="side-mian-list">
+					<span>问题:</span>
+					你是谁
+				</li>
+				<li class="side-mian-list">
+					<span>答案:</span>
+					你是谁
+				</li>
+			</ul>
+			<a class="link edit" href="./user-info-edit.html">编辑</a>
+		</div>
+	</div>
+	<%= require('html-loader!./layout/footer.html')  %>
+</body>
+</html>

@@ -1,0 +1,52 @@
+/*个人中心*/
+.user-center{
+	padding: 10px 0;
+}
+.user-center .side-nav{
+	width: 130px;
+	height: 100px; 
+}
+.user-center .side-nav .item{
+	height: 25px;
+	line-height: 25px;
+	color: #777;
+	font-size: 13px;
+}
+.user-center .side-main{
+	width: 930px;
+	padding: 10px;
+	background-color: #fff;
+}
+.user-center .side-main .tit{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #666;
+	border-bottom: 1px solid #eee;
+	text-indent: 10px;
+} 
+.etid-pass-wrap{
+	padding: 5px; 
+}
+.etid-pass-wrap li{
+	margin: 5px 0;
+}
+.etid-pass-wrap input{
+	width: 200px; 
+	border: 1px solid #666;
+	line-height: 30px;
+	color:blue;
+	padding: 0 5px;
+}
+.edit{
+	display: block;
+	width: 50px;
+	height: 30px;
+	background-color: #c60023;
+	color: #fff;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 66px;
+	cursor: pointer;
+} 

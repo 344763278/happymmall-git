@@ -1,0 +1,26 @@
+<h3 class="tit goods">商品清单</h3>
+
+<div class="tit-info">
+	<span class="des">商品信息</span>
+	<span>单价</span>
+	<span>数量</span>
+	<span>合计</span>
+</div>
+{{#orderItemVoList}}
+<div class="order-detai"> 
+	<div class="tit-info more">
+		<span class="des">
+			<a href="./product-detail.html?productId={{productId}}">
+				<img src="{{imageHost}}{{productImage}}" alt="1" width="82" height="82">
+			</a> 
+			<i>{{productName}}</i>
+		</span>
+		<span>￥{{currentUnitPrice}}</span>
+		<span>{{quantity}}</span>
+		<span>￥{{totalPrice}}</span>
+	</div>
+</div> 
+{{/orderItemVoList}}
+<div class="submit">
+	<span class="price-total">订单总价 :  <i>￥{{productTotalPrice}}</i></span><span class="btn submit-order">提交订单</span>
+</div> 

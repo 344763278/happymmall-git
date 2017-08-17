@@ -1,0 +1,19 @@
+{{#isEmpty}}
+<ul class="goods-items-ul clearfix">
+{{#list}} 
+<li class="item">
+	<a href="./product-detail.html?productId={{id}}" class="img">
+		<img src="{{imageHost}}{{mainImage}}" alt="1" width="180" height="200">
+	</a>
+	<p class="price">￥{{price}}</p>
+	<p class="desc">{{name}}</p>
+</li> 
+{{/list}}
+</ul>
+{{/isEmpty}}
+
+{{^isEmpty}}
+<p id="non" style="padding:10px;font-size:14px;color:#f60;background-color:#eee;font-weight:400;">
+	您搜索的商品还没有上架，先看看其他的吧
+</p>
+{{/isEmpty}}

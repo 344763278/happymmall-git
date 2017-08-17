@@ -1,0 +1,31 @@
+<h3 class="tit">我的订单</h3>
+<div class="tit-info">
+	<span class="des">商品信息</span>
+	<span>单价</span>
+	<span>数量</span>
+	<span>合计</span>
+</div>
+
+<div class="order-detai">
+	{{#list}}
+	<p class="msg">
+		<span>订单号:{{orderNo}}</span>
+		<span>{{createTime}}</span>
+		<span>首件人:{{receiverName}}</span>
+		<span>支付状态:{{statusDesc}}</span>
+		<span>订单总价:￥{{payment}}</span>
+		<span class="last"><a href="./order-detail.html?orderNumber={{orderNo}}">查看详情></a></span>
+	</p> 
+	{{#orderItemVoList}}
+	<div class="tit-info more">
+		<span class="des">
+			<a href="./product-detail.html?productId={{productId}}"><img src="{{imageHost}}{{productImage}}" alt="1" width="82" height="82"></a>
+			<i>{{productName}}</i>
+		</span>
+		<span>￥{{currentUnitPrice}}</span>
+		<span>{{quantity}}</span>
+		<span>￥{{totalPrice}}</span>
+	</div>
+	{{/orderItemVoList}}
+	{{/list}}
+</div> 

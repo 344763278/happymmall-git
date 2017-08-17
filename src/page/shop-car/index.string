@@ -1,0 +1,51 @@
+{{^isEmpty}}
+<div class="not-goods ">
+	您的购物车空空如也  <a href="./index.html">立即去购物</a>
+</div>
+{{/isEmpty}}
+
+{{#isEmpty}}
+<div class="item">
+	<span class="check-all">
+		<input type="checkbox" class="all-check" {{#allChecked}}checked{{/allChecked}} id="all">
+		<label for="all" >全选</label>
+	</span>
+	<span class="pro-info">商品信息</span>
+	<span class="s-price">单价</span>
+	<span class="coun">数量</span>
+	<span class="tatal">合计</span>
+	<span class="operator">操作</span>
+</div>
+<div class="content-area"> 
+	{{#cartProductVoList}}
+	<div class=" item detail-msg list-parent" data-stock="{{productStock}}" 
+	data-id="{{productId}}">
+		<span class="check-all"><input type="checkbox" class="check-sigle" {{#productChecked}}checked{{/productChecked}}></span>
+		<span class="pro-info">
+			<div class="img">
+				<a href="./product-detail.html?productId={{productId}}"><img src="{{imageHost}}{{productMainImage}}" alt="" width="82" height="82"></a>
+			</div> 
+			<i>{{productName}}</i>
+		</span>
+		<span class="s-price">￥{{productPrice}}</span>
+		<span class="coun">
+			<i class="decre"><a href="javascript:" class="dec">-</a></i>
+			<i class="n">{{quantity}}</i>
+			<i class="incre"><a href="javascript:" class="inc">+</a></i> 
+		</span>
+		<span class="tatal">￥{{productTotalPrice}}</span>
+		<span class="operator"><a href="javascript:" class="delete-product">删除</a></span>
+	</div>
+	{{/cartProductVoList}}
+</div>
+  
+<div class=" item detail-msg go-buy"> 
+	<span class="check-all"><input class="all-check" type="checkbox" {{#allChecked}}checked{{/allChecked}} id="del-all"></span> 
+	<span class="pro-info"><span></span><a href="javascript:" class="del-checked">删除选中</a></span></span>  
+	<span class="s-price"></span>
+	<span class="coun"> 
+	</span>
+	<span class="tatal">总价:<i>￥{{cartTotalPrice}}</i></span>
+	<span class="operator"><a href="javascript:" class="pay-money">去结算</a></span>
+</div>
+{{/isEmpty}}

@@ -1,0 +1,47 @@
+<div class="goods-detail-top clearfix">
+	<div class="bg-img fl">
+		<img class="zoom" src="{{imageHost}}{{mainImage}}" alt="bgimg" width="420" height="400">
+	</div>
+	<div class="item-des fl">
+		<p class="name">
+			{{name}}
+		</p>
+		<p class="sub-tit">
+			{{subtitle}}
+		</p>
+		<p class="money">
+			<span class="span">价钱:</span>￥{{price}}
+		</p>
+		<p class="label">
+			<span class="span">库存:</span>{{stock}}
+		</p>
+		<div class="count clearfix">
+			<div class="num fl">数量:</div>
+			<div class="plus fl clearfix">
+				<div class="count-input fl">1</div>
+				<div class="up-down fl">
+					<p class="up">+</p>
+					<p class="down">-</p>
+				</div>
+			</div>
+		</div>
+		<p class="buy">
+			<input type="button" class="join-cart" value="加入购物车">
+		</p>
+	</div>
+</div>
+<div class="goods-detail-bot">
+	<ul class="item-ul clearfix">
+		{{#subImages}}
+		<li class="item-li">
+			<a href="javascript:"><img src="{{imageHost}}{{.}}" alt="" width="74" height="74"></a>
+		</li>
+		 {{/subImages}}
+	</ul>
+</div>
+<div class="goods-detail-param">
+	<h3 class="param-tit"><span>商品详情</span></h3>
+	<ul class="param-ul"> 
+		{{{detail}}}
+	</ul>
+</div>

@@ -1,0 +1,23 @@
+.top-nav-wrap{
+	background-color: #eee;
+}
+.top-nav{
+	height: 30px; 
+	line-height: 30px;
+}
+.top-nav .login-side{
+	float: left;
+}
+.top-nav .login-side .login-reg a{
+	margin-right: 5px;
+}
+.welcome i{
+	margin-right: 5px;
+}
+.top-nav .nav-items a{
+	float: right;
+	margin-left: 10px;
+}
+.top-nav .icon-cart{
+	margin-right: 2px;
+}

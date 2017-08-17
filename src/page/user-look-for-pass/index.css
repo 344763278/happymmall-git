@@ -1,0 +1,92 @@
+.user-login{
+	background-color: #e72955;
+	padding: 30px 0;
+}
+.user-login .login-box{
+	width: 400px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.login-box .tit{
+	height: 28px;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 18px;
+	line-height: 28px;
+	color: #666;
+	border-bottom: 1px solid #f3e2b0;
+}
+.login-box .proving{
+	height: 24px;
+	border: 1px solid #ff0000;
+	margin: 0 auto;
+	width: 360px;
+	margin-top: 20px;
+	background-color: #fde9e9;
+	color: #ff0000;
+}
+.login-box .proving .icon{
+	width: 24px;
+	display: inline-block; 
+	text-align: center;
+	line-height: 24px;
+	font-size: 14px;
+	margin-right: 26px;
+
+}
+
+.login-box .username,.login-box .password{
+	height: 38px;
+	border: 1px solid #bdbdbd;
+	margin: 0 auto;
+	width: 360px;
+	margin-top: 20px;
+	background-color: #fff;
+	color: #757575;
+	line-height: 38px;
+}
+.login-box .username .icon,.login-box .password .icon{
+	width: 39px;
+	display: inline-block; 
+	text-align: center;
+	line-height: 38px;
+	font-size: 18px; 
+	border-right: 1px solid #bdbdbd; 
+}
+.login-box .username input,.login-box .password input{
+	line-height: 38px;
+	background-color: none;
+	vertical-align: top;
+	padding: 0 10px;
+}
+.login-box .button-btn{
+	display: block;
+	width: 362px;
+	height: 40px;
+	margin: 20px auto 0 auto;
+	background-color: #e4393c;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+} 
+.login-box .forget{
+	height: 40px;
+	text-align: right;
+	line-height: 40px;
+	margin-right: 25px;
+}
+.login-box .forget a{
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+/*找回密码*/
+.login-box .look-for-pass{ 
+	width: 362px;
+	margin: 0 auto; 
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 40px;
+	margin-bottom: -20px;
+}

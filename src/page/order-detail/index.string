@@ -1,0 +1,39 @@
+<div class="order-info">
+	<h3 class="tit">订单信息</h3>
+	{{#shippingVo}}
+	<div id="detail-info" style="padding:20px;line-height:30px;font-size:14px;">
+		订单号 : 121212&nbsp;&nbsp;&nbsp;&nbsp;创建时间 : 2018-08-08<br/>
+		收件人 : {{receiverName}} {{receiverProvince}} {{receiverCity}} {{receiverDistrict}}<br/>
+		订单状态 : <span class="order-status">{{statusDesc}}</span><br/>
+		支付方式 : {{paymentTypeDesc}}<br/>
+		{{#isCancel}}
+		<span class="btn btn-mini pay" style="margin-right:10px;" 
+		data-order-no="{{orderNo}}">去支付</span>
+		<span class="btn btn btn-mini cancel" data-order-no="{{orderNo}}">取消订单</span>
+		{{/isCancel}}
+	</div>
+	{{/shippingVo}}
+</div>
+
+
+<h3 class="tit">订单清单</h3>
+<div class="tit-info">
+	<span class="des">商品信息</span>
+	<span>单价</span>
+	<span>数量</span>
+	<span>合计</span>
+</div>
+
+<div class="order-detai"> 
+	{{#orderItemVoList}}
+	<div class="tit-info more">
+		<span class="des">
+			<a href="./product-detail.html?productId={{productId}}"><img src="{{imageHost}}{{productImage}}" alt="1" width="82" height="82"></a> 
+			<i>{{productName}}</i>
+		</span>
+		<span>￥{{currentUnitPrice}}</span>
+		<span>{{quantity}}</span>
+		<span>￥{{totalPrice}}</span>
+	</div>
+	{{/orderItemVoList}}
+</div> 

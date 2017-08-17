@@ -1,0 +1,17 @@
+.search-cont{
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+}
+.search-box{
+	height: 100px; 
+}
+.search-box .logo a{ 
+	position: absolute;
+	top: 20px;
+	left: 50px; 
+	height: 60px;
+	color: #c60023;
+	font-weight: bold;
+	line-height: 60px;
+	font-size: 30px;
+} 

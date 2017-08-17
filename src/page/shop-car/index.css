@@ -1,0 +1,141 @@
+.shop-car{
+	padding: 10px 0;
+}
+.shop-car .not-goods{
+	font-size: 20px;
+	padding: 20px 0;
+	text-align: center;
+	background-color: #eee;
+	margin: 10px 0;
+	color: #fc6600;  
+}
+.shop-car .not-goods a{
+	color: #551a8b;
+	text-decoration: underline;
+}
+.shop-car .item{
+	height: 50px;
+	background-color: #eee;
+	margin-bottom: 10px;
+}
+.shop-car .item span{
+	display: inline-block;
+	line-height: 50px;
+	font-size: 14px;
+	color: #000;
+	font-weight: 700;
+	text-align: center; 
+	vertical-align: middle; 
+}
+.shop-car .item span.check-all{
+	width: 60px;
+	text-align: left;
+	text-indent: 10px;
+}
+.shop-car .item span.check-all>*{
+	vertical-align: middle;
+}
+.shop-car .item span.pro-info{
+	width: 500px;
+}
+.shop-car .item span.s-price{
+	width: 180px;
+}
+.shop-car .item span.coun{
+	width: 120px;
+}
+.shop-car .item span.tatal{
+	width: 100px;
+} 
+.shop-car .item span.operator{
+	width: 100px;
+} 
+
+.shop-car .item.detail-msg{
+	border: 1px solid #ebebeb;
+	height: 100px;
+	background-color: #f6f6f6;
+	margin-bottom: 10px;
+	line-height: 100px;
+} 
+.shop-car .item.detail-msg .pro-info{ 
+	height: 100px;  
+}
+.shop-car .item.detail-msg .pro-info .img{
+	width: 82px;
+	height: 82px; 
+	display: inline-block;
+	vertical-align: middle;
+	display: table-cell;
+}
+.shop-car .item.detail-msg .pro-info i{
+	display: inline-block;
+	width: 400px; 
+	height: 100px;
+	font-weight: normal;
+	font-size: 12px;	
+	vertical-align: middle; 
+	line-height: 30px;
+	display: table-cell;
+}
+
+.shop-car .item.detail-msg .coun .decre,.shop-car .item.detail-msg .coun .incre{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #eee;
+	vertical-align: middle;
+	font-size: 12px;
+	line-height: 20px; 
+	background-color: #fff;
+}
+
+.coun a{
+	font-size: 15px;
+	color: #000; 
+}
+
+.shop-car .item.detail-msg .coun .n{
+	display: inline-block;
+	height: 20px;  
+	vertical-align: middle;
+	line-height: 20px;
+	border: 1px solid #eee; 
+	background-color: #fff;
+	width: 50px;
+	text-align: center;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-select: none;
+	-webket-select: none;
+}
+.shop-car .item.detail-msg.go-buy{
+	line-height: 50px;
+	height: 50px;  
+	background-color: #eeeeee;
+}
+.shop-car .item.detail-msg.go-buy > span{
+	line-height: 50px;	
+	height: 50px;
+}
+.shop-car .item.detail-msg.go-buy .pro-info{
+	text-align: left; 
+
+} 
+.shop-car .item.detail-msg.go-buy .tatal i{
+	color: red;
+}
+.shop-car .item.detail-msg.go-buy .operator a{
+	display: inline-block;
+	background-color: #c60023;
+	font-size: 16px;
+	color: #fff;
+	width: 100%; 
+}
+
+.dec, .inc{
+	user-select: none;
+	-ms-user-select: none;
+	-moz-select: none;
+	-webket-select: none;
+}

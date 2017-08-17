@@ -1,0 +1,19 @@
+<li class="side-mian-list"> <span>门户名:</span>
+	<input type="text" value="{{username}}" style="height:20px;">
+</li>
+<li class="side-mian-list">
+	<span>电话:</span>
+	<input type="text" class="form-phone" value="{{phone}}" style="border:1px solid #999;height:18px;"> 
+</li>
+<li class="side-mian-list">
+	<span>邮箱:</span>
+	<input type="text" class="form-email" value="{{email}}" style="border:1px solid #999;height:18px;">  
+</li>
+<li class="side-mian-list">
+	<span>问题:</span>
+	<input type="text" class="form-question" value="{{question}}" style="border:1px solid #999;height:18px;">  
+</li>
+<li class="side-mian-list">
+	<span>答案:</span>
+	<input type="text" class="form-answer" value="{{answer}}" style="border:1px solid #999;height:18px;">  
+</li>

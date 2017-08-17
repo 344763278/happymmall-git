@@ -1,0 +1,83 @@
+.goods-list-wrap{
+
+}
+.goods-list-wrap .sort-by{
+	height: 24px;
+	line-height: 24px;
+	padding: 10px 0;
+	font-size: 14px;
+	position: relative; 
+	margin-bottom: 15px
+}
+.goods-list-wrap .sort-by span{
+	padding: 4px 10px;
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
+	border: 1px solid #999;
+	margin-right: -1px;
+} 
+.goods-list-wrap .sort-by span.active{
+	background-color: #c60023;
+	color: #fff;
+}
+.goods-list-wrap .goods-items{
+
+}
+.goods-list-wrap .goods-items-ul{
+	margin-right: -20px;
+	margin-bottom: -20px;
+}
+
+.goods-list-wrap .goods-items-ul .non-existent{
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	height: 30px;
+	line-height: 30px; 
+}
+.goods-list-wrap .goods-items-ul .item{
+	height: 290px;
+	width: 200px;
+	margin-right: 20px;
+	float: left; 
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.goods-list-wrap .goods-items-ul .item .img{
+	width: 180px;
+	height: 200px;
+	display: inline-block; 
+	margin: 10px 0 10px 10px;
+}
+.goods-list-wrap .goods-items-ul .item .price{
+	line-height: 30px;
+	text-indent: 10px;
+	color: #e7380d;
+	font-size: 16px;
+}
+.goods-list-wrap .goods-items-ul .item .desc{
+	line-height: 20px;
+	font-size: 12px;
+	height: 40px;
+	color: #666; 
+	text-indent: 10px;
+	overflow: hidden;
+} 
+
+// 商品不存在的样式
+#non{
+	padding: 500px; 
+	font-size: 25px;
+	height: -00px;
+	line-height: 30px; 
+	margin-bottom: 50px; 
+	color: red; 
+	text-align: left;
+}
+
+
+.pagenation{
+	text-align: center;
+	padding: 40px 0;
+}

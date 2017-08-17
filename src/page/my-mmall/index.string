@@ -1,0 +1,20 @@
+<li class="side-mian-list">
+	<span>门户名:</span>
+	{{username}}
+</li>
+<li class="side-mian-list">
+	<span>电话:</span>
+	{{phone}}
+</li>
+<li class="side-mian-list">
+	<span>邮箱:</span>
+	{{email}}
+</li>
+<li class="side-mian-list">
+	<span>问题:</span>
+	{{question}}
+</li>
+<li class="side-mian-list">
+	<span>答案:</span>
+	{{answer}}
+</li>

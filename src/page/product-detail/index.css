@@ -1,0 +1,133 @@
+.goods-detail{
+
+}
+.goods-detail-top{
+	padding: 10px 0;
+}
+.goods-detail-top .bg-img{
+	width: 420px;
+	height: 400px;
+}
+.goods-detail-top .item-des{
+	padding: 0 10px;
+}
+.goods-detail-top .item-des .name{ 
+	line-height: 30px;
+	font-size: 20px;
+	color: #000;
+	width: 630px;
+}
+.goods-detail-top .item-des .sub-tit{
+	line-height: 30px;
+	color: #c60023;
+	font-size: 14px; 
+}
+.goods-detail-top .item-des .money{
+	height: 50px;
+	text-indent: 10px;
+	line-height: 50px;
+	font-size: 20px;
+	background-color: #eeeeee; 
+	color: #c60023;
+} 
+.goods-detail-top .span{
+	margin-right: 10px;
+	color: #999;
+	font-size: 12px;
+}
+.goods-detail-top .item-des .label{
+	line-height: 50px;
+	text-indent: 10px;
+}
+.goods-detail-top .item-des .count{
+	height: 50px;  
+}
+.goods-detail-top .item-des .count .num{
+	padding-left: 10px;
+	margin-right: 10px;
+	line-height: 50px;
+	color: #999;
+}
+.goods-detail-top .plus .count-input{
+	height: 48px;
+	width: 48px;
+	border: 1px solid #aaaaaa;
+	line-height: 48px;
+	text-align: center;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.up-down p{ 
+	width: 20px;
+	height: 20px;
+	border: 1px solid #aaaaaa;
+	line-height: 20px;
+	text-align: center;
+}
+.up-down .up{
+	margin-bottom: 6px;
+	cursor: pointer;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-select: none;
+	-webket-select: none;
+}
+.up-down .down{
+	cursor: pointer;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-select: none;
+	-webket-select: none;
+}
+
+.join-cart{
+	cursor: pointer;
+}	
+
+.goods-detail-top .buy{
+	padding-left: 10px;  
+}
+.goods-detail-top .buy input{
+	width: 125px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center; 
+	background-color: #c60023;
+	color: #fff;
+	margin-top: 25px; 
+}
+
+.goods-detail-bot{
+	padding: 0 0 20px 0;
+}
+.goods-detail-bot .item-li{
+	border: 2px solid #eee;
+	background-color: #fff;
+	float: left;
+	margin-right: 10px;
+}
+.goods-detail-bot .item-li.active{
+	border-color: #c60023;
+}
+
+.goods-detail-param .param-tit{
+	height: 50px;
+	border: 1px solid #dddddd;
+}
+.goods-detail-param .param-tit span{
+	height: 100%;
+	width: 100px;
+	display: inline-block;
+	background-color: #c60023;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 16px;
+}
+.goods-detail-param .param-ul{
+	text-align: center;
+	background-color: #fff;
+}
+.goods-detail-param .param-ul li{
+	margin-bottom: 20px;
+}

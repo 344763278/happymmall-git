@@ -1,0 +1,114 @@
+// 个人中心
+.user-center{
+	padding: 10px 0;
+	margin-top: 10px; 
+}
+.user-center .side-nav{
+	width: 130px;
+	height: 100px; 
+	margin-top: 10px; 
+}
+.user-center .side-nav .item{
+	height: 25px;
+	line-height: 25px;
+	color: #777;
+	font-size: 13px;
+}
+.user-center .side-main{
+	width: 930px;
+	padding: 10px;
+	background-color: #fff;
+	margin-top: 10px; 
+}
+.user-center .side-main .tit{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #666;
+	border-bottom: 1px solid #eee;
+	text-indent: 10px;
+}
+.user-center .side-main .side-mian-list{
+	line-height: 35px;
+	font-size: 13px;
+}
+.user-center .side-main .side-mian-list span{
+	display: inline-block;
+	width: 50px;
+	line-height: 20px;
+	text-align: right;
+	margin-right: 10px;
+}
+.user-center .side-main .edit{
+	display: block;
+	width: 50px;
+	height: 30px;
+	background-color: #c60023;
+	color: #fff;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 66px;
+}
+.user-center .side-main .side-mian-list.about-mmall{
+	line-height: 20px;
+	font-size: 12px;
+	text-indent: 10px;
+}
+
+
+
+// 订单列表
+.user-center .side-main .tit-info{
+	background-color: #999;
+	margin: 10px 0;
+}
+.user-center .side-main .tit-info span{
+	display: inline-block;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	width: 16%;
+	text-align: center;
+}
+.user-center .side-main .tit-info span.des{
+	width: 50%; 
+}
+
+
+.user-center .side-main .order-detai{
+	margin-bottom: 20px;
+	border-bottom: 2px solid red;
+}
+.user-center .side-main .order-detai .msg{
+	background-color: #eee;
+	line-height: 30px;
+	text-indent: 20px;
+}
+.user-center .side-main .order-detai .msg span{
+	margin-right: 30px;
+}
+.user-center .side-main .order-detai .msg span.last{
+	float: right;
+}
+.user-center .side-main .tit-info.more{
+	height: 100px;
+	line-height: 100px;
+	background-color: #fafafa;
+	margin: 0;
+}
+.user-center .side-main .tit-info.more img,.user-center .side-main .tit-info.more i{
+	vertical-align: middle;  
+}
+.user-center .side-main .tit-info.more i{
+	display: inline-block;
+	width: 370px;
+	overflow: hidden; 
+}
+
+
+// 订单信息
+.detail-info {
+	padding: 40px;
+	font-size: 80px;
+}

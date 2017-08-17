@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+	<%= require('html-loader!./layout/head-common.html')  %> 
+	<title><%= htmlWebpackPlugin.options.title%> - happymmall电商平台</title>
+</head>
+<body> 
+	<%= require('html-loader!./layout/search-simple.html') %>
+	<div class="user-login">
+		<div class="login-box">
+			<h3 class="tit">找回密码</h3>
+			<div class="proving hide" style="height:20px;line-height:20px;font-size:14px;text-align:center"> 
+			</div> 
+			<div class="step1">
+				<div class="look-for-pass">
+					请输入用户名
+				</div>
+				<p class="username"><span class="icon icon-user"></span><input id="username" type="text" placeholder="请输入用户名"></p> 
+				<a href="#" class="button-btn btn1">
+					下一步
+				</a>
+			</div>  
+			<div class="step2 hide">
+				<div class="look-for-pass">
+					密码提示问题为: <span class="question">答案</span>
+					<br>
+					请输入密码提示答案:
+				</div>
+				<p class="username"><span class="icon icon-user"></span><input type="text" placeholder="请输入答案" id="answer"></p> 
+				<a href="#" class="button-btn btn2">
+					下一步
+				</a>
+			</div> 
+			<div class="step3 hide">
+				<div class="look-for-pass answer">
+					请输入新密码
+				</div>
+				<p class="username"><span class="icon icon-user"></span><input type="text" placeholder="请输入新密码" id="new-pass"></p> 
+				<a href="#" class="button-btn btn3">
+					提交
+				</a>
+			</div> 
+			<p class="forget"><a href="./user-login.html">去登录</a>
+		</div>
+	</div> 
+	<%= require('html-loader!./layout/footer.html')  %>
+</body>
+</html>

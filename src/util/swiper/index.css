@@ -1,0 +1,13 @@
+// 分页原点大小修改
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	width: 20px!important;
+	height: 20px!important;
+}
+
+.dot{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: red; 
+
+}
